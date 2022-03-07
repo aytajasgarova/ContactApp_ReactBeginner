@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;0,800;1,300&family=Quintessential&display=swap');
+
+body {
+    background-image: url("https://www.freevector.com/uploads/vector/preview/30224/Lovely-Rose-Flower-Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    width: 500px;
+    background-color: #FFF5EE;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #F08080;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border:none;
+    border: 1px solid #F08080;
+}
+
+ul li {
+    list-style: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list li {
+    margin-bottom: 2px;
+    background-color: #FFE4E1;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+    color: #006400;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.btn button {
+    padding: 10px 25px;
+    background-color: #FFB6C1;
+    border: 1px solid #FFB6C1;
+    border-radius: 15px;
+    color: #CD5C5C;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+button:hover  {
+    background-color: beige;
+    border: 1px solid #CD5C5C;
+}
+
+label {
+    font-weight: bold;
+    color: #CD5C5C;
+}
+
+::placeholder{
+    font-style: italic;
+    color: #F08080;
+}
+
